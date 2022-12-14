@@ -1,3 +1,8 @@
+# Code from DrunkHacker on reddit:
+# https://www.reddit.com/user/DrunkHacker/
+# https://www.reddit.com/r/adventofcode/comments/zkmyh4/2022_day_13_solutions/j00n934/?context=3
+
+
 pairs, packets = [], [[[2]], [[6]]]
 for p in open('input_d13.txt').read().split('\n\n'):
     a, b = map(eval, p.split('\n'))
