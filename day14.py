@@ -1,27 +1,3 @@
-"""
-coor = []
-xmin, xmax, ymax = float("inf"), 0, 0
-for line in open('test.txt').read().splitlines():
-    huh = []
-    for p in line.split(' -> '):
-        a, b = map(eval, p.split(','))
-        xmin, xmax, ymax = min(xmin,a), max(xmax, a), max(ymax, b)
-        huh.append((a,b))
-    coor.append(huh)
-print(coor,xmin, xmax, ymax)
-
-cave = [['.' for _ in range(0, ymax+1)] for _ in range(0,xmax-xmin+1)]
-
-for line in coor:
-    i = 0
-    x1,y1 = line[i]
-    while i < len(line) - 1:
-        if x - 
-
-for i in cave:
-    print(i)
-"""
-
 # Code from hyper-neutrino:
 # https://github.com/hyper-neutrino/advent-of-code/blob/main/2022/day14p2.py
 
